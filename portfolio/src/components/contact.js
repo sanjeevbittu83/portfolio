@@ -14,7 +14,7 @@ class Contact extends Component {
               alt="avatar"
               style={{height: '250px'}}
                />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Bc62 tiyasha appartement samarpally road,kestopur, kolkata-700102</p>
+             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Vill-Raj kharsa, po-Koil Bhoopat, dis-Arwal 804430 BIHAR</p>
 
           </Cell>
           <Cell col={6}>
@@ -33,7 +33,7 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="envelope" aria-hidden="true"/>
-                    kbittu074@gmail.com
+                    sanjeevbittu83@gmail.com
                   </ListItemContent>
                 </ListItem>
 

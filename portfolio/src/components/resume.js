@@ -22,14 +22,14 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2em'}}>sanjeev kumar</h2>
             <h4 style={{color: 'grey'}}>Programmer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>A hard working, a passionate about machine learning , deep learning & full stack development with immense interest in Algorithms and Data Structures. Skilled in C++, C and Python. A firm believer of the quote :“Take risks now and do something bold. You won’t regret it.”― Elon Musk </p>
+            <p>A hard working, a passionate about Problem solving and full stack development with immense interest in Algorithms and Data Structures. A firm believer of the quote :“Take risks now and do something bold. You won’t regret it.”― Elon Musk </p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
-            <p>Bc62 tiyasha appartement samarpally road,kestopur, kolkata-700102</p>
+            <p>Vill-Raj kharsa, po-Koil Bhoopat, dis-Arwal 804430 BIHAR</p>
             <h5>Phone</h5>
             <p>+917779916932</p>
             <h5>Email</h5>
-            <p>kbittu074@gmail.com.com</p>
+            <p>sanjeevbittu83@gmail.com</p>
             <h5>Linkedin</h5>
             <p>https://www.linkedin.com/in/sanjeev-kumar-02a30a150/</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
@@ -42,7 +42,7 @@ class Resume extends Component {
               startYear={2016}
               endYear={2020}
               schoolName="Institute of Engineering & Management, kolkata."
-              schoolDescription="electronics and communication engineering with marks=7.1 CGPA"
+              schoolDescription="electronics and communication engineering with marks=7.64 CGPA"
                />
 
                <Education
@@ -62,64 +62,84 @@ class Resume extends Component {
               <h2>Experience</h2>
 
             <Experience
-              startYear={2019}
-              endYear={"persent"}
-              jobName="Remote internship"
-              jobDescription="full stack developer"
+              startYear={"Jan "+ 2020}
+              endYear={"Mar "+ 2020}
+              jobName="software development intern at wit/bit"
+              jobDescription="➢ I have worked on bugs and testing.
+              ➢ I have worked on react js."
+              />
+              <Experience
+              startYear={"Aug "+ 2020}
+              endYear={"Dec "+ 2020}
+              jobName="Teaching Assistant at Coding Ninja"
+              jobDescription="➢I have solved problems, debug codes and
+              helped students.
+              ➢I have worked on Html, Css,Javascript,Node
+              and Express."
+              />
+              <Experience
+              startYear={"Oct "+ 2020}
+              endYear={"Persent"}
+              jobName="software development engineer at Mapline inc."
+              jobDescription="➢ I have worked on many bugs and features.
+              
+              ➢ I am working on javascript, jquery, dot net,
+              Microsoft sql server ,Html and css.
+              
+              ➢
+              I have used some open source like slick grid js
+              and leaflet js"
               />
 
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
-              <Skills
-                skill="c"
-                progress={95}
-                />
+              
                 <Skills
                 skill="c++"
-                progress={95}
+                progress={70}
                 />
-                <Skills
-                skill="Python"
-                progress={75}
-                />
-                <Skills
-                skill="machine learning"
-                progress={60}
-                />
-                <Skills
+                 <Skills
                 skill="data structure & algorithm"
-                progress={78}
+                progress={70}
                 />
                 <Skills
                 skill="Oops"
-                progress={90}
-                />
-                <Skills
-                skill="Flask"
-                progress={50}
-                />
-
-              <Skills
-                skill="javascript"
                 progress={70}
                 />
                 <Skills
                   skill="HTML/CSS"
-                  progress={80}
-                  />
-                  <Skills
-                    skill="ReactJS"
-                    progress={70}
-                    />
-                    <Skills
-                      skill="Mysql"
-                      progress={65}
-                      />
-                <Skills
-                skill="Php"
-                progress={48}
+                  progress={90}
                 />
-
+                <Skills
+                skill="javascript"
+                progress={80}
+                />
+                <Skills
+                skill="jQuery"
+                progress={70}
+                />
+                <Skills
+                skill="Asp.net"
+                progress={50}
+                />
+                <Skills
+                  skill="ReactJS"
+                  progress={50}
+                />
+                <Skills
+                  skill="NodeJs"
+                  progress={50}
+                />
+                <Skills
+                 skill="Mysql"
+                 progress={60}
+                />  
+                
+                <Skills
+                skill="machine learning"
+                progress={30}
+                />
+                
 
           </Cell>
         </Grid>

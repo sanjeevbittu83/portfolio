@@ -10,18 +10,15 @@ class Landing extends Component {
           <Cell col={12}>
             <img
               src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
-              alt="avatar"
+              alt="sanjeev"
               className="avatar-img"
               />
-
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>software development engineer</h1>
 
             <hr/>
 
-          <p>C/C++ |Python | JavaScript | Reactjs | data structure & algorithm | Machine Learning | Opps |HTML/CSS | Flask | Mysql</p>
-
-        
+          <p>C/C++ | JavaScript | React Js | Node Js | data structure & algorithm | Opps |HTML/CSS | .Net | Mysql</p>
             </div>
           </Cell>
         </Grid>
